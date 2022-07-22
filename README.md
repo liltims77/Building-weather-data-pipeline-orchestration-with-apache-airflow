@@ -33,7 +33,7 @@ print showing load in ETLWeatherPrintAirflow2
 
 # ETLWeatherPrint
 ![etl print extract log](https://user-images.githubusercontent.com/41475769/180461534-a7ef10f9-5943-424b-b874-8a8406fd7ec3.PNG)
-print showig extract log in ETLWeatherPrint
+print showig extract log in ETLWeatherPrint 
 
 
 ![etl print extract xcom](https://user-images.githubusercontent.com/41475769/180461736-ba3ee15b-2f60-40df-82f1-05f2c2fec5fa.PNG)
@@ -45,7 +45,7 @@ print showing load in ETLWeatherPrint
 
 
 
-# ETLWeatherPostgres
+# ETLWeatherPostgres (parallel processing)
 ![query_print](https://user-images.githubusercontent.com/41475769/180464015-5d4a1c30-418e-4e73-a71d-a04266e5e507.PNG)
 A simple Load task which takes in the result of the Transform task and writes it to the postgres database.
 
