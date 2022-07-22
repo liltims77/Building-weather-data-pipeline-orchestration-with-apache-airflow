@@ -14,3 +14,15 @@ Docker-compose.yml file was used to run the airflow dag. python operator was mai
 4. dags\03-ETLWeatherPostgresAndPrint - This is a simple ETL data pipeline example which demonstrates the use of the TaskFlow API using three simple tasks for Extract, Transform, and Load.
 
 # 1 ETLWeatherPrintAirflow2
+![print extract log](https://user-images.githubusercontent.com/41475769/180460375-5105226b-1780-4473-97e7-70c412e5051c.PNG)
+log showing extract in ETLWeatherPrintAirflow2
+
+![print extract xcoms](https://user-images.githubusercontent.com/41475769/180460536-263a9243-16b3-4ac3-ae92-19f9d5a145c2.PNG)
+xcoms showing extract in ETLWeatherPrintAirflow2
+
+![print transform log](https://user-images.githubusercontent.com/41475769/180460838-5873722d-edaa-44a1-af02-3c84806b13f7.PNG)
+print showing transform in ETLWeatherPrintAirflow2
+
+![print load](https://user-images.githubusercontent.com/41475769/180461066-31f89864-243d-4241-95da-cbe47c97b51a.PNG)
+print showing load in ETLWeatherPrintAirflow2
+
