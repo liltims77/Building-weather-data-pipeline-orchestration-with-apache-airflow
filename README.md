@@ -39,8 +39,36 @@ print showig extract log in ETLWeatherPrint
 ![etl print extract xcom](https://user-images.githubusercontent.com/41475769/180461736-ba3ee15b-2f60-40df-82f1-05f2c2fec5fa.PNG)
 print showing xcoms in ETLWeatherPrint
 
+
 ![print load](https://user-images.githubusercontent.com/41475769/180462030-54234ab6-376d-4a0b-921e-470f90f2a723.PNG)
 print showing load in ETLWeatherPrint
+
+
+
+# ETLWeatherPostgres
+
+
+
+
+
+
+# ETLWeatherPostgresAndPrint
+![postgres and print](https://user-images.githubusercontent.com/41475769/180462881-827cdacf-1a9b-4560-b451-5f54675c2bc7.PNG)
+postgres and print interface 
+
+
+![postgres and print query](https://user-images.githubusercontent.com/41475769/180463020-8178c3fb-5244-4b73-b2ea-6376d29ae8f0.PNG)
+postgres and print transform
+
+
+![postgres and print load log](https://user-images.githubusercontent.com/41475769/180463166-0ff24888-d19c-4c38-810b-f2ce8dc7154e.PNG)
+postgres and print load
+
+
+
+
+# print after loading data into postgres database
+![database final](https://user-images.githubusercontent.com/41475769/180463553-39a86721-9c39-42ad-8299-6b3898ac173d.PNG)
 
 
 
