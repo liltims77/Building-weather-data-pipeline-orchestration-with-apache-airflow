@@ -2,7 +2,7 @@
 This project involves creating and monitoring  an ETL pipelines using Apache Airflow. A weather data was used in for this project and it is stored in postgres database using a docker-compose file. 
 
 # Introduction
-A weather data set gotten from [weatrhe API] {https://www.weatherapi.com}. An ETL job/data set was extracted from the weather API through query, create a dag transformed into json, schedule the dag and loaded into postgres database, portainer.io UI was used to visualize the data.
+A weather data set gotten from [weatrhe API] {https://www.weatherapi.com}. An ETL job/data set was extracted from the weather API through query, create a dag transformed into json, schedule the dag and loaded into postgres database, portainer.io UI was used to visualize the data. Abuja capital of Nigeria was used as the city example for this project.
 ![portainer img 1](https://user-images.githubusercontent.com/41475769/180443243-8c587b68-ecf8-4a88-80a6-cb0f02a5bf2d.PNG)
 
 
@@ -12,3 +12,5 @@ Docker-compose.yml file was used to run the airflow dag. python operator was mai
 2. dags\01-ETLWeatherPrint - A simple Transform task which takes in the API data and only extracts the location, wind, the temperature and time.
 3. dags\02-ETLWeatherPostgres - A simple Load task which takes in the result of the Transform task and writes it to the postgres database.
 4. dags\03-ETLWeatherPostgresAndPrint - This is a simple ETL data pipeline example which demonstrates the use of the TaskFlow API using three simple tasks for Extract, Transform, and Load.
+
+# 1 ETLWeatherPrintAirflow2
